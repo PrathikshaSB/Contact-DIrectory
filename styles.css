@@ -1,11 +1,42 @@
+body{
+    font-size: 18px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .container{
     border: 1px solid gray;
     border-radius: 5px;
     text-align: center;
     padding: 20px;
     margin: 30px auto;
-    max-width: 300px;
+    max-width: 450px;
     background-color: rgb(200, 226, 238);
+}
+
+button{
+    color: rgb(54, 54, 73);
+    border: 1.5px solid gray;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(201, 229, 252);
+}
+
+input {
+    border-radius: 5px;
+    /* line-height: 18px; */
+    background-color: transparent;
+    border:2px solid gray;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
 }
 
 h3{
